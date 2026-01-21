@@ -1,0 +1,26 @@
+# Jekyll Configuration for GitHub Pages
+title: Comfort Umoren-Olorunnisomo - Academic Profile
+description: Journalism and Media Studies doctoral researcher exploring digital media, civic engagement, and social change
+author: Comfort Umoren-Olorunnisomo
+url: https://comfortumoreno.github.io
+
+# Build settings
+theme: null  # We're using custom HTML/CSS
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Navigation
+permalink: /:title/
+
+# Exclude files
+exclude:
+  - README.md
+  - .gitignore
+  - .github
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
